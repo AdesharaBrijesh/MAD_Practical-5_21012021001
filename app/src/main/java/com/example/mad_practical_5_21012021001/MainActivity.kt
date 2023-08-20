@@ -15,12 +15,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val buttonBrowse: Button = findViewById(R.id.button_browse)
+        val buttonBrowse: Button = findViewById(R.id.Browserbtn)
         val editUrl: EditText =findViewById(R.id.editTextUrl)
         buttonBrowse.setOnClickListener { openBrowser(editUrl.text.toString()) }
 
-        val buttoncall:Button=findViewById(R.id.button_Call)
+        val buttoncall:Button=findViewById(R.id.Callbtn)
         val editcall:EditText=findViewById(R.id.editTextNumber)
+
+        val buttonCallLog:Button = findViewById(R.id.CallLogbtn)
+
+        val buttonGallery:Button = findViewById(R.id.Gallerybtn)
+
+        val buttonCamera:Button = findViewById(R.id.Camerabtn)
+
+        val buttonAlarm:Button = findViewById(R.id.Alarmbtn)
         buttoncall.setOnClickListener { openCall(editcall.text.toString()) }
     }
     fun openBrowser(URL: String ){

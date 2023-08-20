@@ -25,13 +25,13 @@
         android:ems="10"
         android:inputType="text"
         android:text="https://www.ganpatuniversity.ac.in"
-        app:layout_constraintEnd_toStartOf="@+id/button_browse"
+        app:layout_constraintEnd_toStartOf="@+id/Browserbtn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_browse"
+        android:id="@+id/Browserbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Browse"
@@ -58,13 +58,13 @@
         android:ems="10"
         android:inputType="text"
         android:text="+911234567890"
-        app:layout_constraintEnd_toStartOf="@+id/button_Call"
+        app:layout_constraintEnd_toStartOf="@+id/Callbtn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_Call"
+        android:id="@+id/Callbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Call"
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="Call Log:"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/CallLogbtn"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -88,7 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="Gallery:"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button4"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Gallerybtn"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="Camera:"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Camerabtn"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -106,11 +106,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:text="Alarm:"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Alarmbtn"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/CallLogbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -120,7 +120,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Gallerybtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="344dp"
@@ -130,7 +130,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/Camerabtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="417dp"
@@ -140,7 +140,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/Alarmbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="482dp"
