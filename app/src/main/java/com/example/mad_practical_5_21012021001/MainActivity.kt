@@ -30,7 +30,24 @@ class MainActivity : AppCompatActivity() {
 
         val buttonAlarm:Button = findViewById(R.id.Alarmbtn)
         buttoncall.setOnClickListener { openCall(editcall.text.toString()) }
+
+        buttonCallLog.setOnClickListener {
+            openCallLog()
+        }
+
+        buttonGallery.setOnClickListener {
+            openGallery()
+        }
+
+        buttonCamera.setOnClickListener {
+            openCamera()
+        }
+
+        buttonAlarm.setOnClickListener {
+            openAlarm()
+        }
     }
+
     fun openBrowser(URL: String ){
         Intent(Intent.ACTION_VIEW, Uri.parse(URL)).also { startActivity(it) }
 
