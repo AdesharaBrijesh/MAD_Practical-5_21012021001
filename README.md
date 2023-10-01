@@ -1,5 +1,8 @@
 # MAD_Practical-5_21012021001
-first commit
+
+
+AIM - What is Intent? Write down types of Intent and types of Intent Action. Create an application which demonstrates implicit Intent for following features.
+
 
 ![image](https://github.com/AdesharaBrijesh/MAD_Practical-5_21012021001/assets/98079442/2d6890f3-83aa-4fdf-b0ff-d0d390100422)
 ![image](https://github.com/AdesharaBrijesh/MAD_Practical-5_21012021001/assets/98079442/9929c15f-240b-4f05-ba08-5fe704e22712)
